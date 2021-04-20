@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 3000px;
+}
+
+.space{
+    background-image: url(../Images/Space.jpg);
+    background-size: 100% 100%;
+    height: 624px;
+}
+
+.space .earth{
+    width: 40%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.space .earth img{
+    width: 100%;
+    background-image: linear-gradient(to right, red 3%, blue 70%);
+    border-radius: 50%;
+    box-shadow: 1px 1px 33px 6px blue;
+    animation-name: moving;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+
+@keyframes moving{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 1px 33px 20px blue;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 1px 33px 25px yellow;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
